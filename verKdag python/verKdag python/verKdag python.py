@@ -4,7 +4,7 @@ vandaag = datetime.now()
 verKdag = None
 leeftijd = 0
 
-# Vraag de user om zijn/haar verjaardag en zet dit om naar aparte integers
+# Vraag de user om zijn/haar verjaardag en zet dit om naar aparte integers.
 verjaardag = input("Wanneer ben je jarig? (dd-mm-YYYY)\n")
 
 verjaardag = datetime.strptime(verjaardag, "%d-%m-%Y")
