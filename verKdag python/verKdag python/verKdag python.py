@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 
-vandaag = datetime.now().strftime("%d-%m-%Y")
-vandaag = datetime.strptime(vandaag, "%d-%m-%Y")
+vandaag = datetime.now()
 verKdag = None
 leeftijd = 0
 
