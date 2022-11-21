@@ -10,6 +10,7 @@ Label xLabel = new Label();
 Label yLabel = new Label();
 Label schaalLabel = new Label();
 Label maxLabel = new Label();
+Label grid = new Label();
 TextBox xTextBox = new TextBox();
 TextBox yTextBox = new TextBox();
 TextBox schaalTextBox = new TextBox();
@@ -20,6 +21,7 @@ scherm.Controls.Add(xLabel);
 scherm.Controls.Add(yLabel);
 scherm.Controls.Add(schaalLabel);
 scherm.Controls.Add(maxLabel);
+scherm.Controls.Add(grid);
 scherm.Controls.Add(xTextBox);
 scherm.Controls.Add(yTextBox);
 scherm.Controls.Add(schaalTextBox);
@@ -67,11 +69,57 @@ goButton.Size = new Size(139, 37);
 goButton.Text = "Go!";
 goButton.Font = new Font("Arial", 20, FontStyle.Regular);
 
-void bereken(object o, EventArgs e)
+grid.Location = new Point(100, 300);
+grid.Size = new Size(400, 400);
+grid.BackColor = Color.White;
+
+int berekenMandelgetal(double x, double y, int maxAantal)
 {
-    goButton.Text = "";
+    double a = 0;
+    double b = 0;
+    int mandelgetal = 0;
+    double lengte = 0;
+
+    while (lengte <= 2 && mandelgetal < maxAantal)
+    {
+        double newA = a * a - b * b + x;
+        double newB = 2 * a * b + y;
+
+        lengte = Math.Sqrt(Math.Pow(newA - a, 2) + Math.Pow(newB - b, 2));
+
+        mandelgetal++;
+        a = newA;
+        b = newB;
+    }
+
+    return mandelgetal;
 }
 
-goButton.Click += bereken;
+void go(object o, EventArgs e)
+{
+    double middenX = Double.Parse(xTextBox.Text.Replace(".", ","));
+    double middenY = Double.Parse(yTextBox.Text.Replace(".", ","));
+    double schaal = Double.Parse(schaalTextBox.Text.Replace(".", ","));
+    int maxAantal = int.Parse(maxTextBox.Text.Replace(".", ","));
+    Bitmap plaatje = new Bitmap(400, 400);
+
+    for (int x=0; x<=399; x++)
+    {
+        for (int y=0; y<=399; y++) 
+        {
+            int mandelgetal = berekenMandelgetal((x - (199 + middenX)) * schaal, (y - (199 + middenY))*schaal, maxAantal);
+            if (mandelgetal % 2 == 0)
+            {
+                plaatje.SetPixel(x, y, Color.Black);
+            } else
+            {
+                plaatje.SetPixel(x, y, Color.White);
+            }
+        }
+    }
+    grid.Image = plaatje;
+}
+
+goButton.Click += go;
 
 Application.Run(scherm);

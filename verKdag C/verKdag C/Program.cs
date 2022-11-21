@@ -11,7 +11,7 @@ int leeftijd = 0;
 // Vraag de verjaardag van de user en zet dit om naar DateTime
 Console.WriteLine("Wanneer ben je jarig? (dd-mm-yyyy)?");
 string input = Console.ReadLine();
-DateTime verjaardag = DateTime.ParseExact(input, "dd-MM-yyyy)", provider);
+DateTime verjaardag = DateTime.ParseExact(input, "dd-MM-yyyy", provider);
 
 while (verKdag == null)
 {
@@ -29,4 +29,6 @@ while (verKdag == null)
 }
 
 Console.WriteLine($"Je hebt al {leeftijd} verKdag(en) gehad en je volgende verKdag is {verKdag}.");
+string cijfer = "0,931E-8";
+Console.WriteLine(Double.Parse(cijfer));
 Console.ReadLine();

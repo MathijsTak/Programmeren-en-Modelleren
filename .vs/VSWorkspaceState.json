@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\verKdag C\\verKdag C",
-    "\\verKdag python\\verKdag python"
+    "\\Mandelbrot",
+    "\\Mandelbrot\\Mandelbrot",
+    "\\verKdag C",
+    "\\verKdag C\\verKdag C"
   ],
+  "SelectedNode": "\\Mandelbrot\\Mandelbrot\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
