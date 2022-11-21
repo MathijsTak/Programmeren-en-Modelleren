@@ -107,7 +107,7 @@ void go(object o, EventArgs e)
     {
         for (int y=0; y<=399; y++) 
         {
-            int mandelgetal = berekenMandelgetal((x - (199 + middenX)) * schaal, (y - (199 + middenY))*schaal, maxAantal);
+            int mandelgetal = berekenMandelgetal((x - 199) * schaal - middenX, (y - 199) * schaal - middenY, maxAantal);
             if (mandelgetal % 2 == 0)
             {
                 plaatje.SetPixel(x, y, Color.Black);
