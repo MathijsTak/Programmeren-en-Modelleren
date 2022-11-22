@@ -1,6 +1,8 @@
 using System.Windows.Forms;
 using System.Drawing;
 
+Color.
+
 Form scherm = new Form();
 scherm.Text = "Mandelbrot";
 scherm.BackColor = Color.LightCyan;
@@ -85,7 +87,7 @@ int berekenMandelgetal(double x, double y, int maxAantal)
         double newA = a * a - b * b + x;
         double newB = 2 * a * b + y;
 
-        lengte = Math.Sqrt(Math.Pow(newA - a, 2) + Math.Pow(newB - b, 2));
+        lengte = Math.Sqrt(newA * newA + newB * newB);
 
         mandelgetal++;
         a = newA;
@@ -102,24 +104,56 @@ void go(object o, EventArgs e)
     double schaal = Double.Parse(schaalTextBox.Text.Replace(".", ","));
     int maxAantal = int.Parse(maxTextBox.Text.Replace(".", ","));
     Bitmap plaatje = new Bitmap(400, 400);
+    grid.Image = plaatje;
 
     for (int x=0; x<=399; x++)
     {
         for (int y=0; y<=399; y++) 
         {
-            int mandelgetal = berekenMandelgetal((x - 199) * schaal - middenX, (y - 199) * schaal - middenY, maxAantal);
+            int mandelgetal = berekenMandelgetal((x - 199) * schaal + middenX, (y - 199) * schaal - middenY, maxAantal);
             if (mandelgetal % 2 == 0)
             {
                 plaatje.SetPixel(x, y, Color.Black);
-            } else
+            }
+            else
             {
-                plaatje.SetPixel(x, y, Color.White);
+                int b = (255 * (mandelgetal / maxAantal) - 255) * -1;
+                int g = (255 * (b / 255) - 255) * -1;
+                int r = (255 * (g / 255) - 255) * -1;
+
+                plaatje.SetPixel(x, y, );
             }
         }
     }
-    grid.Image = plaatje;
+    grid.Invalidate();
+}
+
+void muisKlik(object o, MouseEventArgs ea)
+{
+    double middenX = Double.Parse(xTextBox.Text.Replace(".", ","));
+    double middenY = Double.Parse(yTextBox.Text.Replace(".", ","));
+    double schaal = Double.Parse(schaalTextBox.Text.Replace(".", ","));
+
+    double x = (ea.X - 199) * schaal + middenX;
+    double y = (199 - ea.Y) * schaal + middenY;
+
+    if (ea.Button == MouseButtons.Left)
+    {
+        schaal = schaal / 2;
+    } 
+    else if (ea.Button == MouseButtons.Right)
+    {
+        schaal = schaal * 2;
+    }
+
+    xTextBox.Text = x.ToString().Replace(",", ".");
+    yTextBox.Text = y.ToString().Replace(",", ".");
+    schaalTextBox.Text = schaal.ToString().Replace(",", ".");
+
+    go(o, ea);
 }
 
 goButton.Click += go;
+grid.MouseClick += muisKlik;
 
 Application.Run(scherm);
