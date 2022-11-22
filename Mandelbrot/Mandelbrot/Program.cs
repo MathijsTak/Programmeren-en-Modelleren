@@ -85,7 +85,7 @@ int berekenMandelgetal(double x, double y, int maxAantal)
         double newA = a * a - b * b + x;
         double newB = 2 * a * b + y;
 
-        lengte = Math.Sqrt(Math.Pow(newA - a, 2) + Math.Pow(newB - b, 2));
+        lengte = Math.Sqrt(newA * newA + newB * newB);
 
         mandelgetal++;
         a = newA;
@@ -107,7 +107,7 @@ void go(object o, EventArgs e)
     {
         for (int y=0; y<=399; y++) 
         {
-            int mandelgetal = berekenMandelgetal((x - 199) * schaal - middenX, (y - 199) * schaal - middenY, maxAantal);
+            int mandelgetal = berekenMandelgetal((x - 199) * schaal + middenX, (y - 199) * schaal - middenY, maxAantal);
             if (mandelgetal % 2 == 0)
             {
                 plaatje.SetPixel(x, y, Color.Black);
