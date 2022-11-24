@@ -29,6 +29,59 @@ while (verKdag == null)
 }
 
 Console.WriteLine($"Je hebt al {leeftijd} verKdag(en) gehad en je volgende verKdag is {verKdag}.");
-string cijfer = "0,931E-8";
-Console.WriteLine(Double.Parse(cijfer));
+
+double H = 127.0 / 200.0 * 359.0;
+double S = 1;
+double L = 0.5;
+double C = (1 - Math.Abs(2 * L - 1)) * S;
+double X = C * (1 - Math.Abs((H / 60) % 2 - 1));
+double M = L - C / 2;
+double Rtemp = 0, Gtemp = 0, Btemp = 0;
+int r, g, b;
+
+if (0 <= H && H < 60)
+{
+    Rtemp = (C + M) * 255;
+    Gtemp = (X + M) * 255;
+    Btemp = (0 + M) * 255;
+}
+else if (60 <= H && H < 120)
+{
+    Rtemp = (X + M) * 255;
+    Gtemp = (C + M) * 255;
+    Btemp = (0 + M) * 255;
+}
+else if (120 <= H && H < 180)
+{
+    Rtemp = (0 + M) * 255;
+    Gtemp = (C + M) * 255;
+    Btemp = (X + M) * 255;
+}
+else if (180 <= H && H < 240)
+{
+    Rtemp = (0 + M) * 255;
+    Gtemp = (X + M) * 255;
+    Btemp = (C + M) * 255;
+}
+else if (240 <= H && H < 300)
+{
+    Rtemp = (X + M) * 255;
+    Gtemp = (0 + M) * 255;
+    Rtemp = (C + M) * 255;
+}
+else if (300 <= H && H < 360)
+{
+    Rtemp = (C + M) * 255;
+    Gtemp = (0 + M) * 255;
+    Rtemp = (X + M) * 255;
+}
+
+r = Convert.ToInt32(Rtemp);
+g = Convert.ToInt32(Gtemp);
+b = Convert.ToInt32(Btemp);
+
+Console.WriteLine(r);
+Console.WriteLine(g);
+Console.WriteLine(b);
+
 Console.ReadLine();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\Mandelbrot.csproj": {}
+    "C:\\Users\\Mathi\\Source\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\Mandelbrot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\Mandelbrot.csproj": {
+    "C:\\Users\\Mathi\\Source\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\Mandelbrot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\Mandelbrot.csproj",
+        "projectUniqueName": "C:\\Users\\Mathi\\Source\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\Mandelbrot.csproj",
         "projectName": "Mandelbrot",
-        "projectPath": "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\Mandelbrot.csproj",
+        "projectPath": "C:\\Users\\Mathi\\Source\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\Mandelbrot.csproj",
         "packagesPath": "C:\\Users\\Mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\obj\\",
+        "outputPath": "C:\\Users\\Mathi\\Source\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\Mandelbrot\\Mandelbrot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
