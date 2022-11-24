@@ -1,8 +1,9 @@
 from datetime import datetime, timedelta
 
+# Maak de variabelen en verkijg de huidige datum.
 vandaag = datetime.now()
 verKdag = None
-leeftijd = 0
+leeftijd = -1 # De leeftijd is -1 omdat ander je leeftijd één jaar te hoog is.
 
 # Vraag de user om zijn/haar verjaardag en zet dit om naar aparte integers.
 verjaardag = input("Wanneer ben je jarig? (dd-mm-YYYY)\n")
@@ -20,8 +21,6 @@ while verKdag == None:
         verKdag = f"over {verschil} dagen, op {datum}"
     if datum == vandaag:
         verKdag = "vandaag"
-
-
 
 # Output is de verKdagen en de volgende verKdag
 print(f"Je hebt al {leeftijd} verKdag(en) gehad en je volgende verKdag is {verKdag}.")
