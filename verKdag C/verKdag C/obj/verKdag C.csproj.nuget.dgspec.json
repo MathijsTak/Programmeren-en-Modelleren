@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\verKdag C.csproj": {}
+    "C:\\Users\\Mathi\\OneDrive - Universiteit Utrecht\\2022-2023\\Modelleren en Programmeren\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\verKdag C.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\verKdag C.csproj": {
+    "C:\\Users\\Mathi\\OneDrive - Universiteit Utrecht\\2022-2023\\Modelleren en Programmeren\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\verKdag C.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\verKdag C.csproj",
+        "projectUniqueName": "C:\\Users\\Mathi\\OneDrive - Universiteit Utrecht\\2022-2023\\Modelleren en Programmeren\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\verKdag C.csproj",
         "projectName": "verKdag C",
-        "projectPath": "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\verKdag C.csproj",
+        "projectPath": "C:\\Users\\Mathi\\OneDrive - Universiteit Utrecht\\2022-2023\\Modelleren en Programmeren\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\verKdag C.csproj",
         "packagesPath": "C:\\Users\\Mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mathi\\Source\\Repos\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\obj\\",
+        "outputPath": "C:\\Users\\Mathi\\OneDrive - Universiteit Utrecht\\2022-2023\\Modelleren en Programmeren\\Repos\\MathijsTak\\Programmeren-en-Modelleren\\verKdag C\\verKdag C\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",

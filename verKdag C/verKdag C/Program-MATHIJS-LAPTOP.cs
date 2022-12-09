@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-Console.WriteLine(98 % 10);
 
 // Verkrijg de huidige datum en Cultureinfo / de manier waarop de datum is geschreven.
 CultureInfo provider = CultureInfo.InvariantCulture;
@@ -21,7 +20,7 @@ while (verKdag == null)
     DateTime datum = verjaardag.AddDays(leeftijd * 1000);
     if (datum > vandaag)
     {
-        TimeSpan verschil = datum - vandaag;
+        var verschil = datum - vandaag;
         verKdag = $"over {verschil.Days} dagen, op {datum.ToString("dd-MM-yyyy", provider)}";
     }
     if (datum == vandaag)
