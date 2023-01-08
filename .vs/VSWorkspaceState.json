@@ -3,10 +3,12 @@
     "",
     "\\Mandelbrot",
     "\\Mandelbrot\\Mandelbrot",
+    "\\Reversi",
+    "\\Reversi\\Reversi",
     "\\verKdag C",
     "\\verKdag C\\verKdag C",
     "\\verKdag python"
   ],
-  "SelectedNode": "\\Mandelbrot\\Mandelbrot\\Program.cs",
+  "SelectedNode": "\\Reversi\\Reversi\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,15 @@
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\bin\Debug\net6.0-windows\Mandelbrot.exe
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\bin\Debug\net6.0-windows\Mandelbrot.deps.json
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\bin\Debug\net6.0-windows\Mandelbrot.runtimeconfig.json
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\bin\Debug\net6.0-windows\Mandelbrot.dll
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\bin\Debug\net6.0-windows\Mandelbrot.pdb
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\Mandelbrot.csproj.AssemblyReference.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\Mandelbrot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\Mandelbrot.AssemblyInfoInputs.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\Mandelbrot.AssemblyInfo.cs
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\Mandelbrot.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\Mandelbrot.dll
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\refint\Mandelbrot.dll
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\Mandelbrot.pdb
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\Mandelbrot.genruntimeconfig.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Mandelbrot\Mandelbrot\obj\Debug\net6.0-windows\ref\Mandelbrot.dll

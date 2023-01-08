@@ -1,0 +1,36 @@
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.exe
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.deps.json
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.runtimeconfig.json
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.dll
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.pdb
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.csproj.AssemblyReference.cache
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.Form1.resources
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Scherm.resources
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.csproj.GenerateResource.cache
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.AssemblyInfoInputs.cache
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.AssemblyInfo.cs
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.dll
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\refint\Reversi.dll
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.pdb
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.genruntimeconfig.cache
+C:\Users\Mathi\Source\Repos\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\ref\Reversi.dll
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.exe
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.deps.json
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.runtimeconfig.json
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.dll
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\bin\Debug\net6.0-windows\Reversi.pdb
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.csproj.AssemblyReference.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.Form1.resources
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Scherm.resources
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.csproj.GenerateResource.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.AssemblyInfoInputs.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.AssemblyInfo.cs
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.dll
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\refint\Reversi.dll
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.pdb
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\Reversi.genruntimeconfig.cache
+C:\Users\Mathi\OneDrive - Universiteit Utrecht\2022-2023\Modelleren en Programmeren\Repos\MathijsTak\Programmeren-en-Modelleren\Reversi\Reversi\obj\Debug\net6.0-windows\ref\Reversi.dll

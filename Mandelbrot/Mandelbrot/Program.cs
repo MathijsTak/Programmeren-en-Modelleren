@@ -63,6 +63,7 @@ xTextBox.Location = new Point(220, 10);
 xTextBox.Size = new Size(300, 50);
 xTextBox.Font = new Font("Arial", 20, FontStyle.Regular);
 xTextBox.Text = "0";
+maxTextBox.Name = "double";
 
 yLabel.Location = new Point(10, 60);
 yLabel.Text = "midden y:";
@@ -73,6 +74,7 @@ yTextBox.Location = new Point(220, 60);
 yTextBox.Size = new Size(300, 50);
 yTextBox.Font = new Font("Arial", 20, FontStyle.Regular);
 yTextBox.Text = "0";
+maxTextBox.Name = "double";
 
 schaalLabel.Location = new Point(10, 110);
 schaalLabel.Text = "schaal:";
@@ -83,6 +85,7 @@ schaalTextBox.Location = new Point(220, 110);
 schaalTextBox.Size = new Size(300, 50);
 schaalTextBox.Font = new Font("Arial", 20, FontStyle.Regular);
 schaalTextBox.Text = 0.01.ToString(CultureInfo.InvariantCulture);
+maxTextBox.Name = "double";
 
 maxLabel.Location = new Point(10, 160);
 maxLabel.Text = "max aantal:";
@@ -93,6 +96,7 @@ maxTextBox.Location = new Point(220, 160);
 maxTextBox.Size = new Size(150, 50);
 maxTextBox.Font = new Font("Arial", 20, FontStyle.Regular);
 maxTextBox.Text = "200";
+maxTextBox.Name = "int";
 
 goButton.Location = new Point(380, 160);
 goButton.Size = new Size(139, 37);
@@ -116,7 +120,7 @@ pic2Button.Font = new Font("Arial", 20, FontStyle.Regular);
 
 pic3Button.Location = new Point(985, 10);
 pic3Button.Size = new Size(150, 40);
-pic3Button.Text = "Eye";
+pic3Button.Text = "Hammer";
 pic3Button.Font = new Font("Arial", 20, FontStyle.Regular);
 
 hueLabel.Location = new Point(650, 60);
@@ -199,7 +203,7 @@ int berekenMandelgetal(double x, double y, int maxAantal) // Functie om het mand
     return mandelgetal;
 }
 
-bool controleerInput(string input) // Deze functie controleerd of de gegeven input in het goede format is. 
+bool controleerInput(string input, string type) // Deze functie controleerd of de gegeven input in het goede format is. 
 {
     if (input == "") return false;
 
@@ -227,8 +231,12 @@ bool controleerInput(string input) // Deze functie controleerd of de gegeven inp
 
         if (mogelijkeInput.Contains(letter)) 
         {
-            if (letter == ',' || letter == '.') kommaPunt++;
-            if (letter == 'E') aantalE++;
+            if (letter == ',' || letter == '.' || letter == 'E')
+            {
+                if (type == "int") { return false; }
+                else if (letter == 'E') aantalE++;
+                else kommaPunt++;
+            }           
         }
         else return false;
     }
@@ -245,12 +253,12 @@ bool controleerInput(string input) // Deze functie controleerd of de gegeven inp
 
 void go(object o, EventArgs e) // Deze functie maakt de mandelbrot. 
 {
-    if (controleerInput(xTextBox.Text) && controleerInput(yTextBox.Text) && controleerInput(schaalTextBox.Text) && controleerInput(maxTextBox.Text))
+    if (controleerInput(xTextBox.Text, xTextBox.Name) && controleerInput(yTextBox.Text, yTextBox.Name) && controleerInput(schaalTextBox.Text, schaalTextBox.Name) && controleerInput(maxTextBox.Text, maxTextBox.Name))
     {
         // Als de gebruiker een . gebruikt in plaats van een komma dan moet deze omgezet worden naar een komma en daarna naar een double of int.
-        middenX = Double.Parse(xTextBox.Text, CultureInfo.InvariantCulture);
-        middenY = Double.Parse(yTextBox.Text, CultureInfo.InvariantCulture);
-        schaal = Double.Parse(schaalTextBox.Text, CultureInfo.InvariantCulture);
+        middenX = Double.Parse(xTextBox.Text.Replace(",", "."), CultureInfo.InvariantCulture);
+        middenY = Double.Parse(yTextBox.Text.Replace(",", "."), CultureInfo.InvariantCulture);
+        schaal = Double.Parse(schaalTextBox.Text.Replace(",", "."), CultureInfo.InvariantCulture);
         maxAantal = int.Parse(maxTextBox.Text, CultureInfo.InvariantCulture);
 
 
@@ -296,6 +304,13 @@ void muisKlik(object o, MouseEventArgs ea) // Deze functie zoemt in en uit
     yTextBox.Text = middenY.ToString(CultureInfo.InvariantCulture);
     schaalTextBox.Text = schaal.ToString(CultureInfo.InvariantCulture);
 
+    if (controleerInput(maxTextBox.Text, maxTextBox.Name))
+    {
+        maxAantal = int.Parse(maxTextBox.Text, CultureInfo.InvariantCulture);
+        maxTextBox.BackColor = Color.White;
+    }
+    else maxTextBox.Text = maxAantal.ToString(CultureInfo.InvariantCulture);
+
     go(o, ea);
 }
 
@@ -311,7 +326,7 @@ void trackBarVeranderd (object o, EventArgs e) // Update de waarde die boven de 
 
 void textBoxVeranderd (object o, EventArgs e) // Maakt de textbox rood als er een verkeerde input is en wit als de input goed is.
 {
-    if (controleerInput(((TextBox)o).Text) == false) ((TextBox)o).BackColor = Color.Red;
+    if (controleerInput(((TextBox)o).Text, ((TextBox)o).Name) == false) ((TextBox)o).BackColor = Color.Red;
     else ((TextBox)o).BackColor = Color.White;
 }
 
@@ -348,10 +363,10 @@ void pic3(object o, EventArgs e)
     saturationTrackBar.Value = 100;
     brightnessTrackBar.Value = 50;
 
-    xTextBox.Text = "-1.249838485717773";
-    yTextBox.Text = "0.04097122192382814";
-    schaalTextBox.Text = "1.220703125E-06";
-    maxTextBox.Text = "600";
+    xTextBox.Text = "0.3553302990365773";
+    yTextBox.Text = "0.650762950849021";
+    schaalTextBox.Text = "5.820766091346741E-13";
+    maxTextBox.Text = "250";
 
     go(o, e);
 }
